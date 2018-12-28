@@ -9,7 +9,7 @@ function init() {
     canvas: canvas,
     antialias: true
   });
-  renderer.setClearColor(0x000000);
+  renderer.setClearColor(0xffffff);
 
   const scene = new THREE.Scene();
 
@@ -41,7 +41,7 @@ function init() {
     }
   });
 
-  const ambient = new THREE.AmbientLight(0xffffff);
+  const ambient = new THREE.AmbientLight(0xeeeeee);
   scene.add(ambient);
 
   tick();

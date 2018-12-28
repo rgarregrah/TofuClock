@@ -32795,7 +32795,7 @@ function init() {
     canvas: canvas,
     antialias: true
   });
-  renderer.setClearColor(0x000000);
+  renderer.setClearColor(0xffffff);
   var scene = new THREE.Scene();
   var camera = new THREE.PerspectiveCamera(45, 1.0);
   camera.position.set(0, 0, 500);
@@ -32824,7 +32824,7 @@ function init() {
       textList.push(textMesh);
     }
   });
-  var ambient = new THREE.AmbientLight(0xffffff);
+  var ambient = new THREE.AmbientLight(0xeeeeee);
   scene.add(ambient);
   tick();
 
@@ -32905,7 +32905,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57876" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65180" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
