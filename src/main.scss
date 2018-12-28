@@ -1,0 +1,26 @@
+#container {
+  position: relative;
+  width: 100%;
+}
+
+#wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, 200%);
+}
+
+#clock {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000,
+    -2px -2px 1px #000;
+  letter-spacing: 5px;
+  font-size: 100px;
+  background-color: rgba($color: #000000, $alpha: 0.9);
+  padding: 15px 2000px;
+}
+#app {
+  position: fixed;
+}
