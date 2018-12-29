@@ -10,3 +10,6 @@ TypeScript 3.22
 Three.js 0.99  
 [Orbitron](https://fonts.google.com/specimen/Orbitron)  
 [Moto Fonts](https://github.com/RyutaGoto/Moto-Fonts)  
+
+## 既知のバグ
+CSSがおかしい(何故か横に長い)
